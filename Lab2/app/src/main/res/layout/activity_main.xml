@@ -1,161 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
     <EditText
-        android:layout_width="150dp"
+        android:id="@+id/ed_name"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/gamer" />
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="請輸入玩家姓名"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="請輸入名字以開始遊戲"
-        android:id="@+id/status"
-        android:textColor="#000000"
-        android:textSize="22sp" />
+        android:layout_marginTop="8dp"
+        android:text="請輸入姓名以開始遊戲"
+        android:textSize="18sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ed_name"
+        app:layout_constraintTop_toBottomOf="@+id/ed_name" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:orientation="horizontal"
-        android:id="@+id/radioGroup">
+        app:layout_constraintStart_toStartOf="@+id/tv_text"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text">
 
         <RadioButton
+            android:id="@+id/btn_scissor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="剪刀"
-            android:id="@+id/radioButton"
-            android:checked="false" />
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="剪刀" />
 
         <RadioButton
+            android:id="@+id/btn_stone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="石頭"
-            android:id="@+id/radioButton2"
-            android:checked="false" />
+            android:layout_weight="1"
+            android:text="石頭" />
 
         <RadioButton
+            android:id="@+id/btn_paper"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="布"
-            android:id="@+id/radioButton3"
-            android:checked="false" />
+            android:layout_weight="1"
+            android:text="布" />
     </RadioGroup>
 
     <Button
+        android:id="@+id/btn_mora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="開始遊戲"
-        android:id="@+id/play" />
+        android:text="猜拳"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="名字"
+        app:layout_constraintStart_toStartOf="@+id/btn_mora"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mora" />
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/tv_winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="勝利者"
+        app:layout_constraintStart_toEndOf="@+id/tv_name"
+        app:layout_constraintTop_toTopOf="@+id/tv_name" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="名字"
-                android:layout_weight="1"
-                android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv_mmora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="我方出拳"
+        app:layout_constraintStart_toEndOf="@+id/tv_winner"
+        app:layout_constraintTop_toTopOf="@+id/tv_winner" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="XXX"
-                android:id="@+id/name"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="勝利者"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Win"
-                android:id="@+id/winner"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="我方出拳"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="石頭"
-                android:id="@+id/myMora"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="電腦出拳"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="布"
-                android:id="@+id/computerMora"
-                android:layout_weight="1"
-                android:textSize="15sp" />
-        </LinearLayout>
-
-    </LinearLayout>
-
-</LinearLayout>
+    <TextView
+        android:id="@+id/tv_cmora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="電腦出拳"
+        app:layout_constraintStart_toEndOf="@+id/tv_mmora"
+        app:layout_constraintTop_toTopOf="@+id/tv_mmora" />
+</android.support.constraint.ConstraintLayout>

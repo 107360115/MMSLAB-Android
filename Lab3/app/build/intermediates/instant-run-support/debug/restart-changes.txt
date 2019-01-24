@@ -1,1 +1,0 @@
-CHANGED,C:\Users\black\Desktop\Android lab\Lab3_Listener\Lab3\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\demo\lab2\MainActivity$2.class
