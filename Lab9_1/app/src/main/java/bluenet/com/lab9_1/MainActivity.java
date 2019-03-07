@@ -4,12 +4,13 @@ import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private int rabprogress = 0, torprogress = 0;
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                while(rabprogress<=100 && torprogress<=100){
+                while(rabprogress<100 && torprogress<100){
                     try {
                         Thread.sleep(100);
 
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         new AsyncTask<Void, Integer, Boolean>() {
             @Override
             protected Boolean doInBackground(Void... voids) {
-                while (torprogress <= 100 && rabprogress < 100) {
+                while (torprogress < 100 && rabprogress < 100) {
                     try {
                         Thread.sleep(100);
                         torprogress += (int)(Math.random() * 3);
