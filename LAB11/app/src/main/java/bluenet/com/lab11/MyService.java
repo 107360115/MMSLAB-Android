@@ -21,38 +21,35 @@ public class MyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startID){
         flag = intent.getBooleanExtra("flag", false);
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while(flag){
-                    try {
-                        //延遲1s
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    //計數器加一
-                    s++;
-                    //秒數大於60進位
-                    if (s >= 60) {
-                        s = 0;
-                        m++;
-                        //分鐘數大於60進位
-                        if (m >= 60) {
-                            m = 0;
-                            h++;
-                        }
-                    }
-                    //發送帶有『MyMessage』識別字串的廣播
-                    Intent intent = new Intent("MyMessage");
-                    //將時間放入Bundle
-                    Bundle bundle = new Bundle();
-                    bundle.putInt("H", h);
-                    bundle.putInt("M", m);
-                    bundle.putInt("S", s);
-                    //發送廣播
-                    sendBroadcast(intent.putExtras(bundle));
+        new Thread(() -> {
+            while(flag){
+                try {
+                    //延遲1s
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+                //計數器加一
+                s++;
+                //秒數大於60進位
+                if (s >= 60) {
+                    s = 0;
+                    m++;
+                    //分鐘數大於60進位
+                    if (m >= 60) {
+                        m = 0;
+                        h++;
+                    }
+                }
+                //發送帶有『MyMessage』識別字串的廣播
+                Intent intent1 = new Intent("MyMessage");
+                //將時間放入Bundle
+                Bundle bundle = new Bundle();
+                bundle.putInt("H", h);
+                bundle.putInt("M", m);
+                bundle.putInt("S", s);
+                //發送廣播
+                sendBroadcast(intent1.putExtras(bundle));
             }
         }).start();
         //自動重啟，但不會保留Intent

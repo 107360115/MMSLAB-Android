@@ -44,12 +44,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.tv_name.setText(contacts.get(position).name);
         holder.tv_phone.setText(contacts.get(position).phone);
 
-        holder.img_delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                contacts.remove(position);
-                notifyDataSetChanged();
-            }
+        holder.img_delete.setOnClickListener(v -> {
+            contacts.remove(position);
+            notifyDataSetChanged();
         });
     }
     //回傳項目筆數

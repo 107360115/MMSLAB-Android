@@ -3,7 +3,6 @@ package bluenet.com.lab4;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -33,12 +32,9 @@ public class MainActivity extends AppCompatActivity {
         //連結畫面元件
         tv_meal = findViewById(R.id.tv_meal);
         //『選擇』按鈕點擊監聽
-        findViewById(R.id.btn_choice).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //透過startActivityForResult發出Intent，並紀錄請求對象
-                startActivityForResult(new Intent(MainActivity.this, Main2Activity.class),1);
-            }
+        findViewById(R.id.btn_choice).setOnClickListener(v -> {
+            //透過startActivityForResult發出Intent，並紀錄請求對象
+            startActivityForResult(new Intent(MainActivity.this, Main2Activity.class),1);
         });
     }
 }

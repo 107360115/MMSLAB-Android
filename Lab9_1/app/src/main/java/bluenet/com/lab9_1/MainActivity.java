@@ -5,7 +5,6 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.Toast;
@@ -28,43 +27,37 @@ public class MainActivity extends AppCompatActivity {
         seekBar2 = findViewById(R.id.seekBar2);
         btn_start = findViewById(R.id.btn_start);
 
-        btn_start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //關閉Button
-                btn_start.setEnabled(false);
-                //初始化佔存與SeekBar
-                rabprogress = 0;
-                torprogress = 0;
-                seekBar.setProgress(0);
-                seekBar2.setProgress(0);
-                //執行龜兔賽跑
-                runThread();
-                runAsyncTask();
-            }
+        btn_start.setOnClickListener(v -> {
+            //關閉Button
+            btn_start.setEnabled(false);
+            //初始化佔存與SeekBar
+            rabprogress = 0;
+            torprogress = 0;
+            seekBar.setProgress(0);
+            seekBar2.setProgress(0);
+            //執行龜兔賽跑
+            runThread();
+            runAsyncTask();
         });
     }
 
     private void runThread(){
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                //重複執行到計數器不小於100為止
-                while(rabprogress<100 && torprogress<100){
-                    try {
-                        //延遲100ms
-                        Thread.sleep(100);
-                        //隨機增加計數器0~2的值
-                        rabprogress += (int)(Math.random() * 3);
-                        //建立Message物件
-                        Message msg = new Message();
-                        //加入代號
-                        msg.what = 1;
-                        //透過sendMessage傳送訊息
-                        mHandler.sendMessage(msg);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+        new Thread(() -> {
+            //重複執行到計數器不小於100為止
+            while(rabprogress<100 && torprogress<100){
+                try {
+                    //延遲100ms
+                    Thread.sleep(100);
+                    //隨機增加計數器0~2的值
+                    rabprogress += (int)(Math.random() * 3);
+                    //建立Message物件
+                    Message msg = new Message();
+                    //加入代號
+                    msg.what = 1;
+                    //透過sendMessage傳送訊息
+                    mHandler.sendMessage(msg);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }).start();   //執行Thread

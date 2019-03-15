@@ -16,20 +16,17 @@ public class MyService extends Service {
     public void onCreate(){
         super.onCreate();
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try{
-                    //延遲5秒
-                    Thread.sleep(5000);
-                    //宣告Intent啟動Main2Activity
-                    Intent intent = new Intent(MyService.this, Main2Activity.class);
-                    //Service要啟動Activity要加入Flag定義要去產生一個新的Activity
-                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    MyService.this.startActivity(intent);
-                }catch (InterruptedException e){
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            try{
+                //延遲5秒
+                Thread.sleep(5000);
+                //宣告Intent啟動Main2Activity
+                Intent intent = new Intent(MyService.this, Main2Activity.class);
+                //Service要啟動Activity要加入Flag定義要去產生一個新的Activity
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MyService.this.startActivity(intent);
+            }catch (InterruptedException e){
+                e.printStackTrace();
             }
         }).start();
     }

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,20 +42,17 @@ public class MainActivity extends AppCompatActivity {
         else
             btn_start.setText("開始");
 
-        btn_start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                flag = !flag;
-                if(flag) {
-                    btn_start.setText("暫停");
-                    Toast.makeText(MainActivity.this, "計時開始", Toast.LENGTH_SHORT).show();
-                }else {
-                    btn_start.setText("開始");
-                    Toast.makeText(MainActivity.this, "計時暫停", Toast.LENGTH_SHORT).show();
-                }
-                //啟動Service
-                startService(new Intent(MainActivity.this, MyService.class).putExtra("flag", flag));
+        btn_start.setOnClickListener(v -> {
+            flag = !flag;
+            if(flag) {
+                btn_start.setText("暫停");
+                Toast.makeText(MainActivity.this, "計時開始", Toast.LENGTH_SHORT).show();
+            }else {
+                btn_start.setText("開始");
+                Toast.makeText(MainActivity.this, "計時暫停", Toast.LENGTH_SHORT).show();
             }
+            //啟動Service
+            startService(new Intent(MainActivity.this, MyService.class).putExtra("flag", flag));
         });
     }
 

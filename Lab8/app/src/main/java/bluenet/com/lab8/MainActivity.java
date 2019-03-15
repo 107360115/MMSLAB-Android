@@ -3,7 +3,6 @@ package bluenet.com.lab8;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import java.util.ArrayList;
 
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //連結畫面元件
         recyclerView = findViewById(R.id.recyclerView);
-        ////建立LinearLayoutManager物件
+        //建立LinearLayoutManager物件
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         //設定垂直顯示
         linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
@@ -50,13 +49,10 @@ public class MainActivity extends AppCompatActivity {
         //連結Adapter
         recyclerView.setAdapter(adapter);
 
-        findViewById(R.id.btn_add).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //透過startActivityForResult發出Intent，並紀錄請求對象
-                startActivityForResult(new Intent(MainActivity.this,
-                        Main2Activity.class),1);
-            }
+        findViewById(R.id.btn_add).setOnClickListener(v -> {
+            //透過startActivityForResult發出Intent，並紀錄請求對象
+            startActivityForResult(new Intent(MainActivity.this,
+                    Main2Activity.class),1);
         });
     }
 }

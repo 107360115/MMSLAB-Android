@@ -35,17 +35,14 @@ public class MainActivity extends AppCompatActivity {
         ll_progress = findViewById(R.id.ll_progress);
         progressBar2 = findViewById(R.id.progressBar2);
 
-        findViewById(R.id.btn_calculate).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //判斷使用者是否輸入身高與體重
-                if(ed_height.length()<1)
-                    Toast.makeText(MainActivity.this,"請輸入身高", Toast.LENGTH_SHORT).show();
-                else if(ed_weight.length()<1)
-                    Toast.makeText(MainActivity.this,"請輸入體重", Toast.LENGTH_SHORT).show();
-                else
-                    runAsyncTask();
-            }
+        findViewById(R.id.btn_calculate).setOnClickListener(v -> {
+            //判斷使用者是否輸入身高與體重
+            if(ed_height.length()<1)
+                Toast.makeText(MainActivity.this,"請輸入身高", Toast.LENGTH_SHORT).show();
+            else if(ed_weight.length()<1)
+                Toast.makeText(MainActivity.this,"請輸入體重", Toast.LENGTH_SHORT).show();
+            else
+                runAsyncTask();
         });
     }
 
