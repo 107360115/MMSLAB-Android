@@ -4,4 +4,4 @@
 
 如內容有誤或有其他建言可透過『讀者回函』或是聯繫[『博碩文化 DrMaster』](https://www.facebook.com/DrMasterTW/)Facebook粉絲團
 
-新書《輕鬆學會Android Kotlin實作開發：精心設計16個Lab讓你快速上手》，於2019/03/14上市囉，懇請大家支持。
+新書[《輕鬆學會Android Kotlin實作開發：精心設計16個Lab讓你快速上手》](https://www.books.com.tw/products/0010815422)，於2019/03/14上市囉，懇請大家支持。
