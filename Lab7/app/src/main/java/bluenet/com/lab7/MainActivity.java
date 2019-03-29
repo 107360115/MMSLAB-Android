@@ -31,9 +31,7 @@ public class MainActivity extends AppCompatActivity {
         TypedArray array = getResources().obtainTypedArray(R.array.resourceList);
         for(int i=0;i<array.length();i++) {
             //建立項目物件，放入圖片資源與名稱
-            Item item  = new Item();
-            item.photo = array.getResourceId(i,0);
-            item.name = "水果"+(i+1);
+            Item item  = new Item(array.getResourceId(i,0), "水果"+(i+1));
             items.add(item);
         }
         //回收TypedArray
@@ -54,4 +52,9 @@ public class MainActivity extends AppCompatActivity {
 class Item{
     int photo;      //圖片Resource
     String name;    //名稱
+
+    Item(int photo, String name){
+        this.photo = photo;
+        this.name = name;
+    }
 }

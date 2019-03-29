@@ -1,9 +1,11 @@
 package bluenet.com.lab9_2;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -41,8 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this,"請輸入身高", Toast.LENGTH_SHORT).show();
             else if(ed_weight.length()<1)
                 Toast.makeText(MainActivity.this,"請輸入體重", Toast.LENGTH_SHORT).show();
-            else
+            else{
                 runAsyncTask();
+                //隱藏鍵盤
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+            }
         });
     }
 
@@ -65,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Boolean doInBackground(Void... voids) {
                 int progress = 0;
-                while (progress <= 100){
+                while (progress < 100)
                     try {
                         //延遲50ms
                         Thread.sleep(50);
@@ -76,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                }
+
                 return true;
             }
 

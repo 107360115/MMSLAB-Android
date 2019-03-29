@@ -7,67 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34ae91b4-1c4e-467c-a71b-4c2dcc7872b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../LAB10/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB10/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB10/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB10/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB10/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB10/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB10/app/src/main/java/bluenet/com/lab10/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB10/app/src/main/java/bluenet/com/lab10/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB10/app/src/main/java/bluenet/com/lab10/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB10/app/src/main/java/bluenet/com/lab10/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/app/src/main/java/bluenet/com/lab11/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/app/src/main/java/bluenet/com/lab11/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB11/app/src/main/java/bluenet/com/lab11/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB11/app/src/main/java/bluenet/com/lab11/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB12/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB12/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB12/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB12/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB12/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab13/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab13/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab13/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab13/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab13/app/src/main/java/bluenet/com/lab13/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab13/app/src/main/java/bluenet/com/lab13/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab14/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab14/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab14/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab14/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab15/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab15/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab15/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab15/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/src/main/java/bluenet/com/lab2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/src/main/java/bluenet/com/lab2/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/Lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Lab4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/app/src/main/java/bluenet/com/lab4/Main2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/app/src/main/java/bluenet/com/lab4/Main2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/app/src/main/java/bluenet/com/lab4/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/app/src/main/java/bluenet/com/lab4/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/Lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/Lab6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab6/app/src/main/java/bluenet/com/lab6/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/src/main/java/bluenet/com/lab6/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab8/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/app/src/main/java/bluenet/com/lab8/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/app/src/main/java/bluenet/com/lab8/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9_1/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_1/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9_1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_1/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9_1/app/src/main/java/bluenet/com/lab9_1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_1/app/src/main/java/bluenet/com/lab9_1/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab9_2/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_2/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9_2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_2/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab9_2/app/src/main/java/bluenet/com/lab9_2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9_2/app/src/main/java/bluenet/com/lab9_2/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,16 +35,16 @@
     <session id="127264020">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="6" />
-          <entry key="java" value="31" />
+          <entry key="java" value="39" />
           <entry key="properties" value="2" />
           <entry key="xml" value="5" />
         </counts>
@@ -103,7 +52,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="39" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="5" />
         </counts>
@@ -111,14 +60,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="140" />
+          <entry key="java" value="141" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="140" />
+          <entry key="JAVA" value="141" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -129,20 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/FirstFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="371">
               <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/SecondFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,22 +100,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/SecondFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="1867">
+              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -209,15 +137,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/ThirdFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/FirstFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/SecondFragment.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1432" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
@@ -228,9 +156,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -251,18 +178,22 @@
             </path>
             <path>
               <item name="Lab5" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lab5" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="MainActivity.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="12deaa9f7ce5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -352,11 +283,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="1432" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2213467" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.2213467" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -368,7 +299,7 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.32496512" />
+      <window_info anchor="bottom" id="Build" order="5" weight="0.3231198" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" />
@@ -385,36 +316,36 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -442,25 +373,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="599">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/FirstFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/SecondFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/FirstFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        <state relative-caret-position="371">
+          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -477,10 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab5/SecondFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="1867">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

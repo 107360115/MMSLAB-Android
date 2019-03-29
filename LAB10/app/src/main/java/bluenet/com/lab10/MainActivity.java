@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_start).setOnClickListener(v -> {
             //啟動Service並結束MainActivity
             startService(new Intent(MainActivity.this, MyService.class));
-            Toast.makeText(MainActivity.this, "啟動Service", Toast.LENGTH_SHORT);
+            Toast.makeText(MainActivity.this, "啟動Service", Toast.LENGTH_SHORT).show();
             finish();
         });
     }

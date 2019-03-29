@@ -11,6 +11,7 @@ import com.google.gson.Gson;
 
 import java.io.IOException;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import okhttp3.Call;
@@ -54,12 +55,14 @@ public class MainActivity extends AppCompatActivity {
             new OkHttpClient().newCall(req).enqueue(new Callback() {
                 //發送失敗執行此方法
                 @Override
-                public void onFailure(Call call, IOException e) {
-                    Log.e("查詢失敗",e.toString());
+                public void onFailure(@Nullable Call call, @Nullable IOException e) {
+                    Log.e("查詢失敗", e.toString());
                 }
                 //發送成功執行此方法
                 @Override
-                public void onResponse(Call call, Response response) throws IOException {
+                public void onResponse(@Nullable Call call, @Nullable Response response) throws IOException {
+                    //判斷回傳是否為空
+                    if(response==null || response.body()==null) return;
                     //用response.body()?.string()取得Json字串，並使用廣播發送
                     sendBroadcast(new Intent("MyMessage")
                             .putExtra("json", response.body().string()));

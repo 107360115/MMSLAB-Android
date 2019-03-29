@@ -11,8 +11,6 @@ import androidx.viewpager.widget.ViewPager;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-    //宣告元件
-    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         //連結畫面
         setContentView(R.layout.activity_main);
         //連結畫面元件
-        viewPager = findViewById(R.id.viewPager);
+        ViewPager viewPager = findViewById(R.id.viewPager);
         //連接Adapter，讓畫面(Fragment)與ViewPager建立關聯
         viewPager.setAdapter(new ViewPagerAdapter(getSupportFragmentManager()));
     }

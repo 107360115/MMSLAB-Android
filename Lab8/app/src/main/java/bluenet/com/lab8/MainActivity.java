@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -23,10 +24,9 @@ public class MainActivity extends AppCompatActivity {
         if(data==null) return;
         //驗證發出對象與回傳狀態
         if(requestCode==1 && resultCode== Activity.RESULT_OK){
-            //建立Contact物件，讀取Bundle中的資料
-            Contact contact = new Contact();
-            contact.name = data.getExtras().getString("name");
-            contact.phone = data.getExtras().getString("phone");
+            //新增聯絡人
+            Contact contact = new Contact(data.getExtras().getString("name"),
+                    data.getExtras().getString("phone"));
             contacts.add(contact);
             //更新列表資料
             adapter.notifyDataSetChanged();
@@ -40,10 +40,12 @@ public class MainActivity extends AppCompatActivity {
         //連結畫面元件
         recyclerView = findViewById(R.id.recyclerView);
         //建立LinearLayoutManager物件
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        //建立GridLayoutManager物件
+        //GridLayoutManager layoutManager = new GridLayoutManager(this, 3);
         //設定垂直顯示
-        linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
-        recyclerView.setLayoutManager(linearLayoutManager);
+        layoutManager.setOrientation(RecyclerView.VERTICAL);
+        recyclerView.setLayoutManager(layoutManager);
 
         adapter = new MyAdapter(contacts);
         //連結Adapter
@@ -60,4 +62,9 @@ public class MainActivity extends AppCompatActivity {
 class Contact{
     String name;    //姓名
     String phone;   //電話
+
+    Contact(String name, String phone){
+        this.name = name;
+        this.phone = phone;
+    }
 }

@@ -17,9 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //宣告要顯示在的列表上的字串
         final String[] array = {"項目1", "項目2", "項目3", "項目4", "項目5"};
 
-        findViewById(R.id.btn_toast).setOnClickListener(v -> {
-            showToast("預設Toast");
-        });
+        findViewById(R.id.btn_toast).setOnClickListener(v -> showToast("預設Toast"));
 
         findViewById(R.id.btn_custom).setOnClickListener(v -> {
             //宣告Toast物件

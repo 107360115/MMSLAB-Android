@@ -15,6 +15,12 @@ public class MyAdapter2 extends BaseAdapter {
     private class ViewHolder{
         private ImageView img_photo;
         private TextView tv_name;
+
+        ViewHolder(View v){
+            //連結畫面元件
+            img_photo = v.findViewById(R.id.img_photo);
+            tv_name = v.findViewById(R.id.tv_name);
+        }
     }
 
     MyAdapter2(int layout, ArrayList<Item> data){
@@ -45,12 +51,9 @@ public class MyAdapter2 extends BaseAdapter {
             //建立畫面
             convertView = View.inflate(parent.getContext(), layout, null);
             //建立ViewHolder
-            holder = new ViewHolder();
+            holder = new ViewHolder(convertView);
             //將ViewHolder作為View的Tag
             convertView.setTag(holder);
-            //連結畫面元件
-            holder.img_photo = convertView.findViewById(R.id.img_photo);
-            holder.tv_name = convertView.findViewById(R.id.tv_name);
         }else   //從Tag取得ViewHolder
             holder = (ViewHolder)convertView.getTag();
         //根據position顯示圖片與名稱

@@ -45,7 +45,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.tv_phone.setText(contacts.get(position).phone);
 
         holder.img_delete.setOnClickListener(v -> {
+            //移除聯絡人
             contacts.remove(position);
+            //更新列表資料
             notifyDataSetChanged();
         });
     }

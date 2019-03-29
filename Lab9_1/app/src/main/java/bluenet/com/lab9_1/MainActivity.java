@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    //建立兩個計數佔存
+    //建立兩個計數暫存
     private int rabprogress = 0, torprogress = 0;
     //宣告元件
     private SeekBar seekBar, seekBar2;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btn_start.setOnClickListener(v -> {
             //關閉Button
             btn_start.setEnabled(false);
-            //初始化佔存與SeekBar
+            //初始化暫存與SeekBar
             rabprogress = 0;
             torprogress = 0;
             seekBar.setProgress(0);
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected Boolean doInBackground(Void... voids) {
                 //重複執行到計數器不小於100為止
-                while (torprogress < 100 && rabprogress < 100) {
+                while (torprogress < 100 && rabprogress < 100)
                     try {
                         //延遲100ms
                         Thread.sleep(100);
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                }
+
                 return true;
             }
 
