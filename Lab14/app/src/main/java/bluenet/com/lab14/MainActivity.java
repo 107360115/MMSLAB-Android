@@ -61,11 +61,18 @@ public class MainActivity extends AppCompatActivity {
                 //發送成功執行此方法
                 @Override
                 public void onResponse(@Nullable Call call, @Nullable Response response) throws IOException {
-                    //判斷回傳是否為空
-                    if(response==null || response.body()==null) return;
-                    //用response.body()?.string()取得Json字串，並使用廣播發送
-                    sendBroadcast(new Intent("MyMessage")
-                            .putExtra("json", response.body().string()));
+                    if(response==null) return;
+
+                    if(response.code()==200){
+                        //判斷回傳是否為空
+                        if(response.body()==null) return;
+                        //用response.body()?.string()取得Json字串，並使用廣播發送
+                        sendBroadcast(new Intent("MyMessage")
+                                .putExtra("json", response.body().string()));
+                    }else if(!response.isSuccessful())
+                        Log.e("伺服器錯誤", response.code() + " " + response.message());
+                    else
+                        Log.e("其他錯誤", response.code() + " " + response.message());
                 }
             });
         });

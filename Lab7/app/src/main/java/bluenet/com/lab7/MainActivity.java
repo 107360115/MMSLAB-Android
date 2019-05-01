@@ -28,14 +28,15 @@ public class MainActivity extends AppCompatActivity {
         gridview = findViewById(R.id.gridview);
         listView = findViewById(R.id.listView);
         //從R讀取圖片資源
-        TypedArray array = getResources().obtainTypedArray(R.array.resourceList);
-        for(int i=0;i<array.length();i++) {
+        TypedArray imgArray = getResources().obtainTypedArray(R.array.imgArray);
+        String[] nameArray = getResources().getStringArray(R.array.nameArray);
+        for(int i=0;i<imgArray.length();i++) {
             //建立項目物件，放入圖片資源與名稱
-            Item item  = new Item(array.getResourceId(i,0), "水果"+(i+1));
+            Item item  = new Item(imgArray.getResourceId(i,0), nameArray[i]);
             items.add(item);
         }
         //回收TypedArray
-        array.recycle();
+        imgArray.recycle();
         //連結Adapter，設定layout為adapter_horizontal
         spinner.setAdapter(new MyAdapter(R.layout.adapter_horizontal, items));
         //設定橫向顯示的項目筆數
