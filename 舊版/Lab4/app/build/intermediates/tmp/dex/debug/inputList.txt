@@ -1,0 +1,5 @@
+C:\Users\black\Desktop\Android lab\Lab4 Activity\Lab4\app\build\intermediates\classes\debug
+C:\Users\black\Desktop\Android lab\Lab4 Activity\Lab4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-2544c11664033f35c00fa264307cad3be4d917fe.jar
+C:\Users\black\Desktop\Android lab\Lab4 Activity\Lab4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-79d1dee7b2aa6c3a5f52f95ca152ba87c156bb46.jar
+C:\Users\black\Desktop\Android lab\Lab4 Activity\Lab4\app\build\intermediates\pre-dexed\debug\classes-1a1d3507cacf21e88dee353f279a789e06637253.jar
+C:\Users\black\Desktop\Android lab\Lab4 Activity\Lab4\app\build\intermediates\pre-dexed\debug\classes-a7e8d6ee50f5d575309ab2b5c2c8fd25a33d3e2c.jar
