@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             Bundle b = intent.getExtras();
-            tv_clock.setText(String.format("%02d:%02d:%02d", b.getInt("H"), b.getInt("M"), b.getInt("S")));
+            tv_clock.setText(String.format("%02d:%02d:%02d", b.getInt("H"),
+                    b.getInt("M"), b.getInt("S")));
         }
     };
 

@@ -6,7 +6,6 @@ import android.os.Handler;
 import android.os.IBinder;
 
 public class MyService extends Service {
-
     @Override
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.

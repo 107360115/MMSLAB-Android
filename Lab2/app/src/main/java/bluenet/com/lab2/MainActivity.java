@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 //判斷勝負
                 if((btn_scissor.isChecked() && computer==2) || (btn_stone.isChecked() && computer==0) ||
                         (btn_paper.isChecked() && computer==1)){
-                    tv_winner.setText("勝利者\n" + ed_name.getText().toString());
+                    tv_winner.setText(String.format("勝利者\n%s", ed_name.getText()));
                     tv_text.setText("恭喜你獲勝了！！！");
                 }else if((btn_scissor.isChecked() && computer==1) || (btn_stone.isChecked() && computer==2) ||
                         (btn_paper.isChecked() && computer==0)){

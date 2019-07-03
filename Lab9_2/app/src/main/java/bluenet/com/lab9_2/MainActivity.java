@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 super.onProgressUpdate(values);
                 //顯示計數器數值
                 progressBar2.setProgress(values[0]);
-                tv_progress.setText(values[0] + "%");
+                tv_progress.setText(String.format("%d%%", values[0]));
             }
 
             @Override

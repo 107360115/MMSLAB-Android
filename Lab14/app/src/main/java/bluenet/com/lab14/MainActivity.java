@@ -86,13 +86,13 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-class Data{
+class Data {
     Result result;
 
-    class Result{
+    class Result {
         Results[] results;
 
-        class Results{
+        class Results {
             String Station; //站名
             String Destination; //目的地
         }

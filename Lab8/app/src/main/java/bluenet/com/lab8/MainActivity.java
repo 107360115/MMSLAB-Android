@@ -59,11 +59,11 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 //自定義聯絡人類別
-class Contact{
+class Contact {
     String name;    //姓名
     String phone;   //電話
 
-    Contact(String name, String phone){
+    Contact(String name, String phone) {
         this.name = name;
         this.phone = phone;
     }

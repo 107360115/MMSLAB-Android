@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 //自定義類別
-class Item{
+class Item {
     int photo;      //圖片Resource
     String name;    //名稱
 
-    Item(int photo, String name){
+    Item(int photo, String name) {
         this.photo = photo;
         this.name = name;
     }
