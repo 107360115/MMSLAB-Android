@@ -3,43 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="19c4119d-763c-4a1b-b4ce-dffcf8e69ac2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/app/src/main/java/bluenet/com/lab2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/app/src/main/java/bluenet/com/lab2/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/app/src/main/java/bluenet/com/lab6/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/app/src/main/java/bluenet/com/lab6/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab6/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/app/src/main/java/bluenet/com/lab7/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/app/src/main/java/bluenet/com/lab7/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab7/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/app/src/main/java/bluenet/com/lab8/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/app/src/main/java/bluenet/com/lab8/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab8/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab8/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +31,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/bluenet/com/lab4/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-306" />
           </provider>
         </entry>
       </file>
@@ -94,16 +63,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab4" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="J9AZB760H2767RP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab5" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -226,9 +205,6 @@
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -251,6 +227,11 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
       </provider>
     </entry>
   </component>
